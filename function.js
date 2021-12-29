@@ -59,7 +59,7 @@ window.function = function (start,end,timezone,subject,description,organizer,loc
   //start = start + offset_final;
   //end = end + offset_final;
 
-let agical = "https://ics.agical.io/?format="+format+"&dtstart="+encodeURIComponent(start)+offset_final+"&dtend="+encodeURIComponent(end)+offset_final+"&subject="+encodeURIComponent(subject)+"&description="+encodeURIComponent(description_final)+"&organizer="+encodeURIComponent(organizer)+"&location="+encodeURIComponent(location)+"&format="+encodeURIComponent(format)+"&attach="+encodeURIComponent(attach);
+let agical = "https://ics.agical.io/?format="+format+"&dtstart="+encodeURIComponent(start)+offset_final+"&dtend="+encodeURIComponent(end)+offset_final+"&subject="+encodeURIComponent(subject)+"&description="+encodeURIComponent(description_final)+"&organizer="+encodeURIComponent(organizer)+"&location="+encodeURIComponent(location)+"&attach="+encodeURIComponent(attach);
 
 return agical;
   }
