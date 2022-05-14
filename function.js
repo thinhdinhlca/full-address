@@ -21,7 +21,7 @@ window.function = function (start,end,timezone,subject,description,organizer,loc
     description_final = description;
   }
 
-  if (start == "" | end == "") return ""
+  if (start == "" && end == "") return ""
 
   else {
   start = start.replace("Z","");
