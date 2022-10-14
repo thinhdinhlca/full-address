@@ -1,5 +1,5 @@
 
-window.function = function (add1 = "",add2 = "",city = "", state = "",zip = "") {
+window.function = function (add1,add2,city,state,zip) {
   
   let sz = [state,zip].filter(Boolean).join(" ");
   
