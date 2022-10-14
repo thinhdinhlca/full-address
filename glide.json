@@ -1,56 +1,36 @@
 [
   {
     "kind": "column",
-    "name": "Agical",
-    "description": "Easily create Agical links to let your users add events to their Calendar",
+    "name": "Full Address",
+    "description": "Generate full address from address, city, state & ZIP",
     "author": "Thinh Dinh <thinh@lowcode.agency>",
     "params": [
       {
-        "name": "start",
-        "displayName": "Start time",
+        "name": "add1",
+        "displayName": "Address 1",
         "type": "string"
       },
       {
-        "name": "end",
-        "displayName": "End time",
+        "name": "add2",
+        "displayName": "Address 2",
+        "type": "string"
+      },
+      
+      {
+        "name": "city",
+        "displayName": "City",
         "type": "string"
       },
       {
-        "name": "timezone",
-        "displayName": "Timezone (e.g: UTC-5, UTC, UTC+7)",
+        "name": "state",
+        "displayName": "State",
         "type": "string"
       },
       {
-        "name": "subject",
-        "displayName": "Subject",
+        "name": "zip",
+        "displayName": "ZIP",
         "type": "string"
       }
-      ,
-      {
-        "name": "description",
-        "displayName": "Description",
-        "type": "string"
-      },
-      {
-        "name": "organizer",
-        "displayName": "Organizer",
-        "type": "string"
-      },
-      {
-        "name": "location",
-        "displayName": "Location",
-        "type": "string"
-      },
-      {
-        "name": "attach",
-        "displayName": "Meeting URL",
-        "type": "string"
-      },
-      {
-        "name": "format",
-        "displayName": "Add to which platform: gcal for Google Calendar, leave empty for others",
-        "type": "string"
-      }     
     ],
     "result": {
       "type": "primitive"
