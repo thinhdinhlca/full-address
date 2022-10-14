@@ -33,7 +33,7 @@
       }
     ],
     "result": {
-      "type": "primitive"
+      "type": "string"
     }
   }
 ]
