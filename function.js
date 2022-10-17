@@ -1,5 +1,5 @@
 
-window.function = function (add1,add2,city,state,zip) {
+window.function = async function (add1, add2, city, state, zip) {
   
   add1 = add1.value ?? "";
   add2 = add2.value ?? "";
